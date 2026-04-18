@@ -1,0 +1,199 @@
+.main {
+  overflow: hidden;
+}
+
+.heroSection {
+  display: grid;
+  gap: 2.5rem;
+  align-items: stretch;
+  padding: 4rem 0;
+  grid-template-columns: 1.6fr 1fr;
+}
+
+.heroContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.heroEyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  font-weight: 700;
+  color: #4f46e5;
+  margin-bottom: 0.5rem;
+}
+
+.heroSection h1 {
+  font-size: clamp(2.8rem, 4vw, 4rem);
+  line-height: 1.05;
+  max-width: 680px;
+}
+
+.heroSubtitle {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  max-width: 680px;
+  color: #4b5563;
+}
+
+.heroActions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.heroPanel {
+  display: grid;
+  gap: 1rem;
+  background: linear-gradient(180deg, rgba(255,255,255,0.96), rgba(241,245,249,0.96));
+  border: 1px solid rgba(107, 114, 128, 0.12);
+  border-radius: 24px;
+  padding: 2rem;
+  min-height: 100%;
+}
+
+.featurePill {
+  display: inline-flex;
+  padding: 0.75rem 1.25rem;
+  border-radius: 9999px;
+  background: #eef2ff;
+  color: #3730a3;
+  font-weight: 700;
+  font-size: 0.95rem;
+}
+
+.heroStats {
+  display: grid;
+  gap: 1rem;
+}
+
+.heroStats div {
+  padding: 1rem 1.25rem;
+  border-radius: 18px;
+  background: white;
+  border: 1px solid rgba(99, 102, 241, 0.1);
+}
+
+.heroStats strong {
+  display: block;
+  font-size: 1.1rem;
+  margin-bottom: 0.35rem;
+}
+
+.section {
+  padding: 4rem 0;
+}
+
+.sectionAlt {
+  padding: 4rem 0;
+  background: #f8fafc;
+}
+
+.sectionIntro {
+  max-width: 720px;
+  margin-bottom: 2rem;
+}
+
+.sectionEyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  color: #6366f1;
+  font-weight: 700;
+}
+
+.section h2 {
+  font-size: clamp(2rem, 3vw, 2.8rem);
+  margin: 0.75rem 0 1rem;
+}
+
+.cardGrid,
+.blogGrid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.5rem;
+}
+
+.topicCard,
+.blogCard,
+.trustCard {
+  padding: 1.75rem;
+  border-radius: 24px;
+  border: 1px solid rgba(107, 114, 128, 0.12);
+  background: white;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.topicCard:hover,
+.blogCard:hover,
+.trustCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 35px rgba(15, 23, 42, 0.08);
+}
+
+.topicIcon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 3rem;
+  height: 3rem;
+  margin-bottom: 1rem;
+  font-size: 1.7rem;
+  background: #eef2ff;
+  border-radius: 12px;
+}
+
+.topicCard h3,
+.blogCard h3,
+.trustCard h2 {
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+}
+
+.topicCard p,
+.blogCard p,
+.trustCard p {
+  color: #475569;
+  line-height: 1.75;
+}
+
+.cardLink {
+  display: inline-flex;
+  margin-top: 1.25rem;
+  color: #4f46e5;
+  font-weight: 700;
+}
+
+.trustGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.5rem;
+}
+
+@media screen and (max-width: 992px) {
+  .heroSection {
+    grid-template-columns: 1fr;
+  }
+
+  .cardGrid,
+  .blogGrid,
+  .trustGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .heroSection {
+    padding: 3rem 0;
+  }
+
+  .heroPanel,
+  .topicCard,
+  .blogCard,
+  .trustCard {
+    border: none;
+    box-shadow: 0 10px 25px rgba(15, 23, 42, 0.08);
+  }
+}

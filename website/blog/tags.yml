@@ -1,0 +1,59 @@
+physical-ai:
+  label: Physical AI
+  permalink: /blog/tags/physical-ai
+  description: Core concepts of intelligent physical systems
+
+humanoid-robotics:
+  label: Humanoid Robotics
+  permalink: /blog/tags/humanoid-robotics
+  description: Design and control of humanoid robots
+
+robotics:
+  label: Robotics
+  permalink: /blog/tags/robotics
+  description: General robotics concepts and applications
+
+intelligence:
+  label: Intelligence
+  permalink: /blog/tags/intelligence
+  description: AI and learning in physical systems
+
+motion:
+  label: Motion
+  permalink: /blog/tags/motion
+  description: Robot motion and control
+
+control:
+  label: Control
+  permalink: /blog/tags/control
+  description: Control systems for robots
+
+future:
+  label: Future
+  permalink: /blog/tags/future
+  description: Future trends in robotics
+
+trends:
+  label: Trends
+  permalink: /blog/tags/trends
+  description: Industry trends and developments
+
+ros2:
+  label: ROS 2
+  permalink: /blog/tags/ros2
+  description: Robot Operating System 2
+
+middleware:
+  label: Middleware
+  permalink: /blog/tags/middleware
+  description: Robot middleware and software architecture
+
+architecture:
+  label: Architecture
+  permalink: /blog/tags/architecture
+  description: System and software architecture
+
+ai:
+  label: AI
+  permalink: /blog/tags/ai
+  description: Artificial intelligence systems
