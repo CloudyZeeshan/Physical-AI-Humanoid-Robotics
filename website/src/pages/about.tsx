@@ -60,7 +60,6 @@ export default function About() {
           <h2>Contact and support</h2>
           <p>
             If you have questions about the material, email us at{' '}
-            <a href="mailto:support@physicalai-robotics.com">support@physicalai-robotics.com</a> or use the{' '}
             <Link to="/contact">contact form</Link>.
           </p>
         </section>

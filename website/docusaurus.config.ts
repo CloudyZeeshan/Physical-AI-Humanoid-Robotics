@@ -22,7 +22,7 @@ const config: Config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'yourusername', // Usually your GitHub org/user name.
+  organizationName: 'CloudyZeeshan', // Usually your GitHub org/user name.
   projectName: 'my-book', // Usually your repo name.
 
   onBrokenLinks: 'throw',
@@ -209,7 +209,7 @@ const config: Config = {
             },
             {
               label: 'Contact Email',
-              href: 'mailto:support@physicalai-robotics.com',
+              href: 'mailto:taimoorhassankhan2@gmail.com',
             },
           ],
         },

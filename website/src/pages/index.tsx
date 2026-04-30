@@ -96,10 +96,6 @@ export default function Home(): ReactNode {
                 <strong>5 blog posts</strong>
                 <p>Original robotics insights</p>
               </div>
-              <div>
-                <strong>Email support</strong>
-                <p>support@physicalai-robotics.com</p>
-              </div>
             </div>
           </div>
         </section>
